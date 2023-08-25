@@ -28,3 +28,9 @@ code {
   padding: 10px 15px;
   font-size: 1.5rem;
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #898F9C;
+}
