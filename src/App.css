@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
+#about-me-text {
+  padding: 0 15%;
+}

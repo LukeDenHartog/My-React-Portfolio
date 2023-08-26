@@ -2,11 +2,11 @@ import React from 'react';
 
 export default function Nav() {
     return (
-            <ul class="navbar">
-             <li class="nav-list-item">About me</li>
-             <li class="nav-list-item">Portfolio</li>
-             <li class="nav-list-item">Contact</li>
-             <li class="nav-list-item">Resume</li>
+            <ul className="navbar">
+             <li className="nav-list-item" id="aboutId">About me</li>
+             <li className="nav-list-item"  id="portfolioId">Portfolio</li>
+             <li className="nav-list-item"  id="contactId">Contact</li>
+             <li className="nav-list-item"  id="resumeId">Resume</li>
             </ul>
     )
 }
