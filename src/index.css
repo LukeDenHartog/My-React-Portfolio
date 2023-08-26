@@ -41,3 +41,9 @@ code {
   justify-content: center;
   background-color: #898F9C;
 }
+
+.projectFlexContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
