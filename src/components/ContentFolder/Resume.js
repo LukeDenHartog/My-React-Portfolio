@@ -26,7 +26,7 @@ export default function Resume() {
   return (
     <div>
      <a href={ResumePic} download="resume.pdf">
-        Download Resume
+        Download Luke's Resume
       </a>
       <h2>front end Proficiencies</h2>
       <FepList frontEndProficiencies={frontEndProficiencies} />
