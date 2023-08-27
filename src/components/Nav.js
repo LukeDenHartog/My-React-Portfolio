@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function Nav(prop) {
     return (
         <ul className="navbar">
@@ -8,7 +6,7 @@ export default function Nav(prop) {
                     href="#about"
                     onClick={() => prop.handleContentSwitch("About")}
                     className={
-                        prop.currentContent === "About"
+                        prop.currentContent === "About" ? "active" : ""
                     }
                 >
                     About me
@@ -19,7 +17,7 @@ export default function Nav(prop) {
                     href="#Portfolio"
                     onClick={() => prop.handleContentSwitch("Portfolio")}
                     className={
-                        prop.currentContent === "Portfolio"
+                        prop.currentContent === "Portfolio" ? "active" : ""
                     }
                 >
                     Portfolio
@@ -30,18 +28,18 @@ export default function Nav(prop) {
                     href="#Contact"
                     onClick={() => prop.handleContentSwitch("Contact")}
                     className={
-                        prop.currentContent === "Contact"
+                        prop.currentContent === "Contact" ? "active" : ""
                     }
                 >
                     Contact
                 </a>
             </li>
             <li className="nav-list-item" id="resumeId">
-            <a
+                <a
                     href="#Resume"
                     onClick={() => prop.handleContentSwitch("Resume")}
                     className={
-                        prop.currentContent === "Contact"
+                        prop.currentContent === "Resume" ? "active" : ""
                     }
                 >
                     Resume
