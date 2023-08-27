@@ -1,5 +1,5 @@
 import React from 'react';
-
+import ResumePic from './projectImages/resume.pdf'
 const FepList = ({ frontEndProficiencies }) => {
   return (
     <div>
@@ -25,6 +25,9 @@ export default function Resume() {
   const backEndProficiencies = ["API's", 'Node', 'Express', 'MySQL', 'Sequelize', 'Mongo', 'Mongoose']
   return (
     <div>
+     <a href={ResumePic} download="resume.pdf">
+        Download Resume
+      </a>
       <h2>front end Proficiencies</h2>
       <FepList frontEndProficiencies={frontEndProficiencies} />
       <h2>back end Proficiencies</h2>
