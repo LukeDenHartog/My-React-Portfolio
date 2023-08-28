@@ -1,12 +1,10 @@
 import React, { useState } from "react";
 
 export default function Contact() {
-
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
-
 
   const onInputChange = (e) => {
     const { target } = e;
@@ -27,7 +25,6 @@ export default function Contact() {
     const inputType = target.name;
     const inputValue = target.value;
 
-
     if (inputType === "name" && !inputValue) {
       setErrorMessage("Name field is required!");
     } else if (inputType === "email" && !inputValue) {
@@ -45,23 +42,24 @@ export default function Contact() {
     setMessage("");
     setErrorMessage("");
 
-    alert(`WARNING! Your message was not be sent. This app does not have any functionality yet.`);
+    alert(
+      "WARNING! Your message was not be sent. This app does not have any functionality yet."
+    );
   };
 
   return (
-    <section id="contact">
-      <h2>Contact me</h2>
+    <section id="contact" className="contact-section">
+      <h2 className="contact-heading">Contact me</h2>
       <div>
-        <form>
+        <form className="contact-form">
           <div className="form-group">
             <input
               value={name}
               name="name"
-              //onblur fires when a field loses focus, while onchange fires when that field's value changes.
               onChange={onInputChange}
               onBlur={onBlurChange}
-              type="name"
-              className=""
+              type="text"
+              className="input-field"
               placeholder="Full Name"
             />
           </div>
@@ -72,7 +70,7 @@ export default function Contact() {
               onChange={onInputChange}
               onBlur={onBlurChange}
               type="email"
-              className="form-control"
+              className="input-field"
               placeholder="Username@yahoo.com"
             />
           </div>
@@ -82,7 +80,7 @@ export default function Contact() {
               name="message"
               onChange={onInputChange}
               onBlur={onBlurChange}
-              className=""
+              className="textarea-field"
               placeholder="Type your message here!"
             ></textarea>
           </div>
@@ -91,7 +89,7 @@ export default function Contact() {
               <p className="error-text">{errorMessage}</p>
             </div>
           )}
-          <button type="button" onClick={onSubmitForm}>
+          <button type="button" className="submit-button" onClick={onSubmitForm}>
             Submit
           </button>
         </form>
