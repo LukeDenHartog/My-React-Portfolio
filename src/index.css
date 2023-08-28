@@ -22,9 +22,10 @@ code {
 .header {
   background-color: #4267B2;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   color: white;
-  padding-left: 5rem;
+  flex-direction: column;
+  text-align: center;
 }
 
 .navbar {
@@ -48,6 +49,20 @@ code {
   display: flex;
   flex-direction: column;
   text-align: center;
+  background-color: white;
+  padding: 10px;
+  margin: 25px 25px;
+  width: calc(33.33% - 10rem);
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 3px solid #ccc;
+  text-align: center;
+}
+
+.projectFlexContainer img {
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
 }
 
 .cl-image-container {
@@ -61,26 +76,49 @@ code {
   box-shadow: 10px 10px 10px #898F9C;
 }
 
-#aboutId {
-  text-decoration: none;
-  color: white;
-}
-
-#portfolioId {
-  text-decoration: none;
-  color: white;
-}
-
-#contactId {
-  text-decoration: none;
-  color: white;
-}
-
+#aboutId,
+#portfolioId,
+#contactId,
 #resumeId {
   text-decoration: none;
   color: white;
 }
 
 .paragraph {
-  text-align: -webkit-center;
+  text-align: center; /* Correct typo (-webkit-center to center) */
+}
+
+.projects-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 1200px) {
+  .projectFlexContainer {
+    width: calc(50% - 50px);
+  }
+  /* Adjust the breakpoint and styles as needed */
+}
+
+@media (max-width: 925px) {
+  .projectFlexContainer {
+    width: calc(80% - 20px);
+  }
+  /* Adjust the breakpoint and styles as needed */
+}
+
+#project-header-text {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 415px) {
+  .projectFlexContainer {
+    width: calc(75% - 10px);
+  }
+  .navbar {
+    padding: 0;
+  }
 }

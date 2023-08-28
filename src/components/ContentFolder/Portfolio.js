@@ -48,19 +48,22 @@ export default function Portfolio() {
       ];
       return (
         <div>
-            <h1>Projects</h1>
-            {portfolioProjects.map(project => (
-                <div key={project.title} className="projectFlexContainer">
-                    <h3>{project.title}</h3>
-                    <a href={project.deployedLink}>
-                        <img src={project.image} alt={project.title} style={{ width: '200px', height: '150px' }} />
-                    </a>
-                    <a href={project.githubRepo}>GitHub Repo</a>
-                    {project.deployedLink !== "" && ( // Conditional check
-                        <a id="deployed-app-link" href={project.deployedLink}>Visit Deployed App</a>
-                    )}
-                </div>
-            ))}
+          <h2 id="project-header-text">Projects</h2>
+          <div className="projects-wrapper">
+            
+              {portfolioProjects.map(project => (
+                  <div key={project.title} className="projectFlexContainer">
+                      <h3>{project.title}</h3>
+                      <div>
+                          <img src={project.image} alt={project.title} style={{ width: '200px', height: '150px' }} />
+                      </div>
+                      <a href={project.githubRepo}>GitHub Repo</a>
+                      {project.deployedLink !== "" && ( // Conditional check
+                          <a id="deployed-app-link" href={project.deployedLink}>Visit Deployed App</a>
+                      )}
+                  </div>
+              ))}
+          </div>
         </div>
     );
 }
