@@ -81,7 +81,14 @@ code {
 #contactId,
 #resumeId {
   text-decoration: none;
-  color: white;
+  color: white; 
+}
+
+#aboutId.active,
+#portfolioId.active,
+#contactId.active,
+#resumeId.active {
+  color: rgb(241, 216, 71);
 }
 
 .paragraph {
@@ -157,3 +164,7 @@ code {
 }
 
 /* Resume pages CSS declarations above*/
+
+.active {
+  color: red;
+}
