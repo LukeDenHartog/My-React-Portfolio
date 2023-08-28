@@ -23,7 +23,6 @@ export default function Contact() {
   };
 
   const onBlurChange = (eventObject) => {
-    console.log(eventObject)
     const { target } = eventObject;
     const inputType = target.name;
     const inputValue = target.value;
@@ -38,8 +37,8 @@ export default function Contact() {
     }
   };
 
-  const onSubmitForm = (eventObject) => {
-    eventObject.preventDefault();
+  const onSubmitForm = (e) => {
+    e.preventDefault();
 
     setName("");
     setEmail("");

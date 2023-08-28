@@ -23,6 +23,8 @@ code {
   background-color: #4267B2;
   display: flex;
   justify-content: space-between;
+  color: white;
+  padding-left: 5rem;
 }
 
 .navbar {
@@ -57,5 +59,28 @@ code {
   max-width: 100%;
   border-radius: 50%;
   box-shadow: 10px 10px 10px #898F9C;
-;
+}
+
+#aboutId {
+  text-decoration: none;
+  color: white;
+}
+
+#portfolioId {
+  text-decoration: none;
+  color: white;
+}
+
+#contactId {
+  text-decoration: none;
+  color: white;
+}
+
+#resumeId {
+  text-decoration: none;
+  color: white;
+}
+
+.paragraph {
+  text-align: -webkit-center;
 }
