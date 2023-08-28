@@ -1,6 +1,10 @@
 import React from 'react';
 import codingQuizPic from './projectImages/coding-quiz.jpg'
 import weatherAppPic from './projectImages/weather-dashboard-picture.jpg'
+import animeForumPic from './projectImages/anime-forum.png'
+import passwordGenPic from './projectImages/passwordgenscreenshot.jpg'
+import firstPortfolioPic from './projectImages/firstPortfolio.jpg'
+import mysqlPic from './projectImages/mysql.png'
 
 export default function Portfolio() {
     const portfolioProjects = [
@@ -16,9 +20,32 @@ export default function Portfolio() {
           deployedLink: "https://afrozez.github.io/weather-dashboard/",
           githubRepo: "https://github.com/Afrozez/weather-dashboard"
         },
-
+        {
+          image: animeForumPic,
+          title: "Anime Forum",
+          deployedLink: "",
+          githubRepo: "https://github.com/Afrozez/anime-forum"
+        },
+        {
+          image: passwordGenPic,
+          title: "Password Generator",
+          deployedLink: "https://afrozez.github.io/my-portfolio/",
+          githubRepo: "https://github.com/Afrozez/passwordgenerator-03"
+        },
+        {
+          image: firstPortfolioPic,
+          title: "First Portfolio",
+          deployedLink: "https://afrozez.github.io/my-portfolio/",
+          githubRepo: "https://github.com/Afrozez/my-portfolio"
+        },
+        {
+          image: mysqlPic,
+          title: "SQL Employee Tracker",
+          deployedLink: "",
+          githubRepo: "https://github.com/Afrozez/sql-employee-tracker"
+        },
+        
       ];
-      
       return (
         <div>
             <h1>Projects</h1>
@@ -29,7 +56,9 @@ export default function Portfolio() {
                         <img src={project.image} alt={project.title} style={{ width: '200px', height: '150px' }} />
                     </a>
                     <a href={project.githubRepo}>GitHub Repo</a>
-                    <a href={project.deployedLink}>Visit Deployed App</a>
+                    {project.deployedLink !== "" && ( // Conditional check
+                        <a id="deployed-app-link" href={project.deployedLink}>Visit Deployed App</a>
+                    )}
                 </div>
             ))}
         </div>
