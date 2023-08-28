@@ -85,7 +85,7 @@ code {
 }
 
 .paragraph {
-  text-align: center; /* Correct typo (-webkit-center to center) */
+  text-align: center;
 }
 
 .projects-wrapper {
@@ -94,19 +94,16 @@ code {
   justify-content: center;
 }
 
-/* Media query for smaller screens */
 @media (max-width: 1200px) {
   .projectFlexContainer {
     width: calc(50% - 50px);
   }
-  /* Adjust the breakpoint and styles as needed */
 }
 
 @media (max-width: 925px) {
   .projectFlexContainer {
     width: calc(80% - 20px);
   }
-  /* Adjust the breakpoint and styles as needed */
 }
 
 #project-header-text {
@@ -122,3 +119,41 @@ code {
     padding: 0;
   }
 }
+
+/* Resume pages CSS declarations below*/
+.resume-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.download-link {
+  display: block;
+  margin: 20px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.section-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.proficiency-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 50px;
+}
+
+.proficiency-item {
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+/* Resume pages CSS declarations above*/

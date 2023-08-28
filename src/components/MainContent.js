@@ -10,7 +10,6 @@ import Header from './Header';
 export default function MainContent() {
   const [currentContent, setCurrentContent] = useState("About");
 
-  // conditional rendering based on the value of currentContent. If none of them, return Contact
   const contentSwitch = () => {
     if (currentContent === "About") {
       return <About/>;
