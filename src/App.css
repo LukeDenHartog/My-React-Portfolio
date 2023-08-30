@@ -38,5 +38,8 @@
 }
 
 #about-me-text {
-  padding: 0 15%;
+  padding: 0 20% 35px 20%;
+  line-height: 2;
+  font-size: 25px;
+  color: black;
 }

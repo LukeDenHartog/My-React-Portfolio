@@ -20,7 +20,6 @@ code {
 }
 
 .header {
-  background-color: #4267B2;
   display: flex;
   justify-content: center;
   color: white;
@@ -54,8 +53,8 @@ code {
   margin: 25px;
   width: calc(33.33% - 10rem);
   box-sizing: border-box;
-  border-radius: 10px;
-  border: 3px solid #ccc;
+  border-radius: 50px;
+  border: 10px solid goldenrod;
   text-align: center;
 }
 
@@ -73,7 +72,7 @@ code {
 .cl-image-container img {
   max-width: 100%;
   border-radius: 50%;
-  box-shadow: 10px 10px 10px #898F9C;
+  box-shadow: 5px 5px 5px #898F9C;
 }
 
 #aboutId,
@@ -116,6 +115,7 @@ code {
 #project-header-text {
   display: flex;
   justify-content: center;
+  color: white;
 }
 
 @media (max-width: 415px) {
@@ -124,6 +124,9 @@ code {
   }
   .navbar {
     padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   }
 }
 
@@ -139,13 +142,14 @@ code {
 .download-link {
   display: block;
   margin: 20px;
-  color: #007bff;
+  color: purple;
   text-decoration: none;
 }
 
 .section-title {
   font-size: 24px;
   margin-bottom: 10px;
+  color: white;
 }
 
 .proficiency-list {
@@ -227,3 +231,15 @@ code {
 }
 
 /* Contact page CSS declarations above*/
+
+body{
+  background: hsla(221, 45%, 73%, 1);
+
+  background: linear-gradient(90deg, hsla(221, 45%, 73%, 1) 0%, hsla(220, 78%, 29%, 1) 100%);
+  
+  background: -moz-linear-gradient(90deg, hsla(221, 45%, 73%, 1) 0%, hsla(220, 78%, 29%, 1) 100%);
+  
+  background: -webkit-linear-gradient(90deg, hsla(221, 45%, 73%, 1) 0%, hsla(220, 78%, 29%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#9BAFD9", endColorstr="#103783", GradientType=1 );
+}
