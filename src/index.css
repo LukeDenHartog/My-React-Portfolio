@@ -98,6 +98,7 @@ code {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 100px;
 }
 
 @media (max-width: 1200px) {
@@ -134,7 +135,7 @@ code {
 .resume-container {
   max-width: 800px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 50px;
   font-family: Arial, sans-serif;
   text-align: center;
 }
