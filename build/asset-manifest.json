@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9a70dafc.css",
+    "main.js": "/static/js/main.cbb73dce.js",
+    "static/js/787.56d9acf9.chunk.js": "/static/js/787.56d9acf9.chunk.js",
+    "static/media/anime-forum.png": "/static/media/anime-forum.b5efabf52ce8fddfa59e.png",
+    "static/media/mysql.png": "/static/media/mysql.8d2099b9cf4ec2de414a.png",
+    "static/media/firstPortfolio.jpg": "/static/media/firstPortfolio.d1886774b857fd22751a.jpg",
+    "static/media/weather-dashboard-picture.jpg": "/static/media/weather-dashboard-picture.bb1185a13c3bc1167515.jpg",
+    "static/media/resume.pdf": "/static/media/resume.86ecbf22238dffaa7f88.pdf",
+    "static/media/passwordgenscreenshot.jpg": "/static/media/passwordgenscreenshot.c9c08e55f564011c1598.jpg",
+    "static/media/coding-quiz.jpg": "/static/media/coding-quiz.361e04204ee3789a3841.jpg",
+    "static/media/catandluke.jpg": "/static/media/catandluke.e89095d010b5b3037210.jpg",
+    "index.html": "/index.html",
+    "main.9a70dafc.css.map": "/static/css/main.9a70dafc.css.map",
+    "main.cbb73dce.js.map": "/static/js/main.cbb73dce.js.map",
+    "787.56d9acf9.chunk.js.map": "/static/js/787.56d9acf9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a70dafc.css",
+    "static/js/main.cbb73dce.js"
+  ]
+}
