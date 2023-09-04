@@ -1,5 +1,7 @@
 # My React Portfolio
 
+Here is a link to the deployed application: <https://afrozez.github.io/My-React-Portfolio/>
+
 ## Description
 
 Now that I've completed multiple projects my task was to create a portfolio using my new React skills and deploy the application to GitHubPages.
