@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/My-React-Portfolio/static/css/main.47a1181a.css",
-    "main.js": "/My-React-Portfolio/static/js/main.651c8968.js",
-    "static/js/787.56d9acf9.chunk.js": "/My-React-Portfolio/static/js/787.56d9acf9.chunk.js",
+    "main.js": "/My-React-Portfolio/static/js/main.704c98b3.js",
+    "static/js/787.d20c59c5.chunk.js": "/My-React-Portfolio/static/js/787.d20c59c5.chunk.js",
     "static/media/anime-forum.png": "/My-React-Portfolio/static/media/anime-forum.b5efabf52ce8fddfa59e.png",
     "static/media/mysql.png": "/My-React-Portfolio/static/media/mysql.8d2099b9cf4ec2de414a.png",
     "static/media/firstPortfolio.jpg": "/My-React-Portfolio/static/media/firstPortfolio.d1886774b857fd22751a.jpg",
@@ -13,11 +13,11 @@
     "static/media/catandluke.jpg": "/My-React-Portfolio/static/media/catandluke.e89095d010b5b3037210.jpg",
     "index.html": "/My-React-Portfolio/index.html",
     "main.47a1181a.css.map": "/My-React-Portfolio/static/css/main.47a1181a.css.map",
-    "main.651c8968.js.map": "/My-React-Portfolio/static/js/main.651c8968.js.map",
-    "787.56d9acf9.chunk.js.map": "/My-React-Portfolio/static/js/787.56d9acf9.chunk.js.map"
+    "main.704c98b3.js.map": "/My-React-Portfolio/static/js/main.704c98b3.js.map",
+    "787.d20c59c5.chunk.js.map": "/My-React-Portfolio/static/js/787.d20c59c5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.47a1181a.css",
-    "static/js/main.651c8968.js"
+    "static/js/main.704c98b3.js"
   ]
 }
