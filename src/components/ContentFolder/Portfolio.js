@@ -5,7 +5,7 @@ import animeForumPic from './projectImages/anime-forum.png'
 import passwordGenPic from './projectImages/passwordgenscreenshot.jpg'
 import firstPortfolioPic from './projectImages/firstPortfolio.jpg'
 import mysqlPic from './projectImages/mysql.png'
-
+import loginPic from './projectImages/login.png'
 export default function Portfolio() {
     const portfolioProjects = [
         {
@@ -13,6 +13,12 @@ export default function Portfolio() {
           title: "Coding Quiz",
           deployedLink: "https://afrozez.github.io/coding-quiz/",
           githubRepo: "https://github.com/Afrozez/coding-quiz"
+        },
+        {
+          image: loginPic,
+          title: "TeachTogether",
+          deployedLink: "https://teachtogether-ffa1db8adbe1.herokuapp.com/",
+          githubRepo: "https://github.com/Afrozez/teach-together"
         },
         {
           image: weatherAppPic,
@@ -44,7 +50,6 @@ export default function Portfolio() {
           deployedLink: "",
           githubRepo: "https://github.com/Afrozez/sql-employee-tracker"
         },
-        
       ];
       return (
         <div>
