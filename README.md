@@ -1,6 +1,6 @@
 # My React Portfolio
 
-Here is a link to the deployed application: <https://afrozez.github.io/My-React-Portfolio/>
+Here is a link to the deployed application: <https://lukedenhartog.github.io/My-React-Portfolio/>
 
 ## Description
 
@@ -8,7 +8,7 @@ Now that I've completed multiple projects my task was to create a portfolio usin
 
 ## Installation
 
-To install this project you can download the zip folder or clone the repository. To do so visit github.com/Afrozez/My-React-Portfolio and click the green button with the text "Code" and choose to clone the repo or download the zip.
+To install this project you can download the zip folder or clone the repository. To do so visit github.com/LukeDenHartog/My-React-Portfolio and click the green button with the text "Code" and choose to clone the repo or download the zip.
 
 ## Usage
 
@@ -16,4 +16,4 @@ To use this project the user can click on the text in the header to switch betwe
 
 ## Questions
 
- My GitHub username is: Afrozez <https://github.com/Afrozez/>
+ My GitHub username is: LukeDenHartog <https://github.com/LukeDenHartog/>
